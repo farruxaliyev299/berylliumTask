@@ -1,1 +1,12 @@
-/* No CSS *//*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.bold {
+  font-weight: bolder;
+  font-family: sans-serif;
+}
+/*# sourceMappingURL=main.css.map */
