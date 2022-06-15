@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/pages/Home/_home.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
