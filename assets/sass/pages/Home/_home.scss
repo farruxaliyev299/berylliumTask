@@ -14,8 +14,12 @@
     padding: 30px 0px;
 }
 
-@media  screen and (max-width: 992px) {
-    .right-enav{
-        display: none!important;
-    }
+.right-enav{
+    gap:30px;
 }
+
+// @media  screen and (max-width: 992px) {
+//     .right-enav{
+//         display: none!important;
+//     }
+// }
