@@ -18,4 +18,14 @@
 .right-enav {
   gap: 30px;
 }
+
+.dropdown-item {
+  color: white;
+}
+
+.collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
 /*# sourceMappingURL=main.css.map */
