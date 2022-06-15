@@ -47,6 +47,14 @@
   margin: 0px 260px;
 }
 
+.work-carousel li h3 {
+  margin: 20px 0px;
+}
+
+.work-carousel li p {
+  color: grey;
+}
+
 @media screen and (max-width: 1200px) {
   .work-header-description p {
     margin: 0px 20px;

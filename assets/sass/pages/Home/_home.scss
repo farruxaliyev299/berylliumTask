@@ -41,6 +41,17 @@
     }
 }
 
+.work-carousel{
+    li{
+        h3{
+            margin: 20px 0px;
+        }
+        p{
+            color: grey;
+        }
+    }
+}
+
 @media  screen and (max-width: 1200px) {
     .work-header-description{
         p{
