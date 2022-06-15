@@ -117,19 +117,19 @@
                 </div>
                 <div class="carousel-inner">
                   <div class="carousel-item active">
-                    <img src="./assets/images/slider_1.jpg" class="d-block w-100">
+                    <img src="./assets/images/slider/slider_1.jpg" class="d-block w-100">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Architecture#1</h5>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="./assets/images/slider_2.jpg" class="d-block w-100">
+                    <img src="./assets/images/slider/slider_2.jpg" class="d-block w-100">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Architecture#2</h5>
                     </div>
                   </div>
                   <div class="carousel-item">
-                    <img src="./assets/images/slider_3.jpg" class="d-block w-100">
+                    <img src="./assets/images/slider/slider_3.jpg" class="d-block w-100">
                     <div class="carousel-caption d-none d-md-block">
                       <h5>Architecture#3</h5>
                     </div>
@@ -161,8 +161,30 @@
             </section>
             <!-- Work section end -->
 
+            <!-- Work Carousel start -->
+            
+            <!-- Work Carousel end -->
         </div>
     </main>
     <!-- Main End -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.0/jquery-migrate.min.js" integrity="sha512-QDsjSX1mStBIAnNXx31dyvw4wVdHjonOwrkaIhpiIlzqGUCdsI62MwQtHpJF+Npy2SmSlGSROoNWQCOFpqbsOg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.your-class').slick({
+                setting-name: setting-value
+            });
+        });
+
+       $('.autoplay').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 2000,
+        });
+    </script>
   </body>
 </html>
